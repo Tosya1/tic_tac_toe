@@ -41,7 +41,6 @@ def btn_click():
     i = 2
     while i in [2, 2]:
         lbl['text'] = f'Игрок {i}, введите свое имя: '
-        print(txt.get())
         if txt.get() != '':
             players.append(txt.get())
         else:
