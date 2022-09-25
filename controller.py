@@ -34,7 +34,6 @@ def init():
     log(msg['text'])
 
     def handle_click(event):
-        print(board)
         global mark
         global player
         if event.widget['text'] in marks:
