@@ -44,7 +44,6 @@ def btn_click():
         print(txt.get())
         if txt.get() != '':
             players.append(txt.get())
-            print(players)
         else:
             show_error('Ошибка!', f'Не указано имя игрока. Пожалуйста, введите свое имя: ')
             if len(players) == 0:
