@@ -1,0 +1,54 @@
+START_WIN_SIZE = '400x300'
+FONT = 'Arial'
+FONT_SIZE = 15
+FONT_SIZE_CELL = 45
+FONT_SIZE_COMMENT = 20
+BG_BASE = '#AFEEEE'
+BG_BUTTON = '#87CEEB'
+BG_BOARD = 'white'
+FG = '#00008B' 
+BRDR_WIDTH = 0
+BTN_WIDTH = 12
+BTN_TEXT = 'OK'
+BTNS_WIDTH = 30
+BTNS_PAD = 10
+BTN_GAME_2PLAYERS = 'Игра на двоих'
+BTN_GAME_BOT = 'Игра c Ботом (легкий уровень)'
+BTN_GAME_SMART_BOT = 'Игра c Ботом (сложный уровень)'
+ENTRY_WIDTH = 20
+FRAME_WIDTH = 75
+FRAME_PAD = 2
+TITLE = 'КРЕСТИКИ-НОЛИКИ'
+TITLE_GAME_OVER = 'Игра окончена'
+ERROR_TITLE = 'Ошибка!'
+ERR_MSG_CHECKED_CELL = 'Ячейка уже занята. Пожалуйста, выберите другую ячейку.'
+ERR_MSG_EMPTY_NAME = 'Не указано имя игрока. Пожалуйста, введите свое имя: '
+MSG_SELECT_GAME = 'Выберите игру:'
+MSG_PLR1_NAME = 'Игрок 1, введите свое имя: '
+MSG_PLR2_NAME = 'Игрок 2, введите свое имя: '
+MSG_NEW_GAME = 'Начать новую игру?'
+MSG_START_GAME = 'По результатам жеребьевки\n начинает %s с %s'
+MSG_MAKE_A_MOVE = '%s, Ваша очередь проставить %s'
+MSG_BOT_MOVE = '%s проставил %s'
+MSG_VIN = 'Победил %s!'
+MSG_DRAW = 'Игра закончилась вничью'
+MSG_STAT = '%s\nПобеды: %s\nПоражения: %s'
+MSG_PAD = 15
+MSG_MIN_WIDTH = 75
+MSG_MIN_HEIGHT = 50
+MSG_STAT_PADY = 20
+CELL_WIDTH = 5
+CELL_HEIGHT = 2
+CELL_SPAN = 3
+MARK_X = 'X'
+MARK_O = 'O'
+X_COLOR = 'green'
+O_COLOR = 'red'
+LOG_MSG_MOVE = '%s поставил %s в ячейку %s'
+LOG_MSG_VIN = '%s побеждает в игре.'
+BOT_NAME = 'BOT'
+ICON = 'icon.ico'
+
+
+
+
